@@ -1,0 +1,27 @@
+---
+---
+
+body {
+  max-width:1500px;
+}
+
+.wrapper-nav {
+  border-radius:7px;
+  box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.21)
+}
+
+nav li {
+  border-radius:7px;
+}
+
+nav a:hover {
+  border-radius:7px;
+}
+
+img{
+  border-radius: 5px;
+}
+
+.tip,.version,.note,.caution{
+  border-radius: 5px;
+}
