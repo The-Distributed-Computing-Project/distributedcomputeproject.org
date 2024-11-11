@@ -8,7 +8,7 @@ markdown: kramdown
 destination: /var/www/distributedcomputeproject.org
 baseurl: ""
 
-nav_categories : ["Overview", "Architecture", "Programming"]
+nav_categories : ["Overview"]
 
 # Search Settings
 
@@ -21,7 +21,12 @@ footer_left: "<a id=\"footer_edit_button\" href=\"\">See something wrong? Contri
 footer_right: "<a id=\"last-modified\" href=\"\"></a>"
 
 home: /
-small_logo_path: /images/DCC-Logo4.png
+small_logo_path: /images/distributedcomputeproject.png
+
+github:
+  owner_name: The-Distributed-Computing-Project
+  repository_name: distributedcomputeproject.org
+  branch: main
 
 favicon:
   source: favicon.ico
@@ -59,8 +64,8 @@ search:
 # Aux links for the upper right navigation
 aux_links:
     
-    "Astro-8 on GitHub":
-      - "//github.com/sam-astro/Astro8-Computer"
+    "Distributed-Computing-Project on GitHub":
+      - "//github.com/The-Distributed-Computing-Project"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab : false
